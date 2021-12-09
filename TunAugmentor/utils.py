@@ -18,6 +18,6 @@ def export(images,path):
     res=True
     for im in images:
         i+=1
-        img_name='img'+str(i)+'.jpg'
+        img_name='/img'+str(i)+'.jpg'
         res=cv2.imwrite(path+img_name,im) and res
     return res
