@@ -1,5 +1,5 @@
 import numpy
-from transformations import BasicTransform
+from TunAugmentor.transformations import BasicTransform
 from typing import List
 
 class Pipeline ():
