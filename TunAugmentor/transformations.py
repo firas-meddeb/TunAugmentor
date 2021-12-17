@@ -46,6 +46,14 @@ class Flip_Horizental(BasicTransform):
             res.append(im[:,::-1,:])
         return res
 
+class Transpose(BasicTransform):
+    def transform(self, images: List[np.ndarray]):
+        self.check_images(images)
+        res=[]
+        for im in images:
+            res.append(np.transpose(im,(1,0,2)))
+        return res
+
 class RandomRotation90(BasicTransform):
     def __init__(self,factor=random.randint(0, 3)):
         self.factor=factor
