@@ -10,7 +10,12 @@ class Pipeline ():
             if not(isinstance(transformation,BasicTransform)):
                 raise TypeError
         self.transformations=transformations
-    def apply(self,images: List[numpy.ndarray]):
+    def arrange(self,images: List[numpy.ndarray]):
         for transformation in self.transformations:
             images=images+transformation.transform(images)
         return images
+    def apply(self,images: List[numpy.ndarray]):
+        res=images.copy()
+        for transformation in self.transformations:
+            res=res+transformation.transform(images)
+        return res
