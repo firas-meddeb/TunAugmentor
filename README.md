@@ -6,7 +6,7 @@ Therefore, it is the process of increasing the training dataset without collecti
 - [About TunAugmentor](#About-TunAugmentor)
 - [Authors](#Authors)
 - [Installation](#Installation)
-- [Example](Example)
+- [Example](#Example)
 - [Transformation List](#Transformation-List)
   - [CenterCrop](#CenterCrop)
   - [Crop](#Crop)
