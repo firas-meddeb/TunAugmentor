@@ -12,10 +12,10 @@ Therefore, it is the process of increasing the training dataset without collecti
   - [Crop](#Crop)
   - [CropAndPad](#CropAndPad)
   - [CropOrPad](#CropOrPad)
-  - [Dummy Transformation](#DummyTransformation)
+  - [DummyTransformation](#DummyTransformation)
   - [Flip](#Flip)
-  - [Flip Horizontal](#FlipHorizontal)
-  - [FlipVertical](#FLipVertical)
+  - [Flip_Horizontal](#Flip_Horizontal)
+  - [Flip_Vertical](#FLip_Vertical)
   - [Transpose](#Transpose)
   - [RandomCrop](#RandomCrop)
   - [RandomRotation90](#RandomRotation90)
@@ -45,10 +45,10 @@ res=export(images,'./res')
 - ### Crop:
 - ### CropAndPad:
 - ### CropOrPad:
-- ### Dummy Transformation:
+- ### DummyTransformation:
 - ### Flip:
-- ### Flip Horizontal:
-- ### Flip Vertical:
+- ### Flip_Horizontal:
+- ### Flip_Vertical:
 - ### Transpose:
 - ### RandomCrop:
 - ### RandomRotation90:
