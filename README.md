@@ -40,16 +40,16 @@ images=read_images('./image_folder')
 images=Augmentor.apply(images)
 res=export(images,'./res')
 ```
-##Transformation List
-- ###CenterCrop:
-- ###Crop:
-- ###CropAndPad:
-- ###CropOrPad:
-- ###Dummy Transformation:
-- ###Flip:
-- ###Flip Horizontal:
-- ###Flip Vertical:
-- ###Transpose:
-- ###RandomCrop:
-- ###RandomRotation90:
+## Transformation List
+- ### CenterCrop:
+- ### Crop:
+- ### CropAndPad:
+- ### CropOrPad:
+- ### Dummy Transformation:
+- ### Flip:
+- ### Flip Horizontal:
+- ### Flip Vertical:
+- ### Transpose:
+- ### RandomCrop:
+- ### RandomRotation90:
 
