@@ -1,7 +1,6 @@
 from .basic_transform import BasicTransform
 from typing import List
 import numpy as np
-import random
 
 
 class Flip(BasicTransform):
