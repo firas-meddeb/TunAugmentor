@@ -24,10 +24,10 @@ Therefore, it is the process of increasing the training dataset without collecti
 - [Albumentations](https://github.com/albumentations-team/albumentations) was a great source of inspiration concerning which transformation to implement and for the documentation. Try to check their work you may find what you really need.
 ## Authors
 - [Ahmed Belgacem - Software Engineering graduate from the National Institute of Applied Sciences and Technology (INSAT) and  Artificial Intelligence, Systems, Data (IASD) master student at Paris Dauphine Tunis.](https://www.linkedin.com/in/ahmedbelgacem/)
-- [Firas Meddeb - Business Administration graduate from Tunisian Business School and Artificial Intelligence, Systems, Data (IASD) master student at Paris Dauphine Tunis ](https://www.linkedin.com/in/firasmeddeb/)
+- [Firas Meddeb - Business Administration graduate from Tunisian Business School and Artificial Intelligence, Systems, Data (IASD) master student at Paris Dauphine Tunis. ](https://www.linkedin.com/in/firasmeddeb/)
 ## Installation
 ```
-!pip install TunAugmentor
+pip install TunAugmentor
 ```
 ## Example
 ```python
@@ -42,24 +42,7 @@ res=export(images,'./res')
 ```
 ##Transformation List
 - ### CenterCrop:
-#### Class TunAugmentor.transformations.CenterCrop (height, width)
-Crops the center of the image with a fixed width and height.
-
-| Parameters | Type | Description         |
-|------------|------|---------------------|
-| height     | int  | height of the crop. |
-| width      | int  | width of the crop.  |
-
 - ### Crop:
-#### Class TunAugmentor.transformations.Crop (xmin, xmax, ymin, ymax)
-Crops the area of the image limited by xmin,xmax and ymin,ymax.
-
-| Parameters | Type | Description           |
-|------------|------|-----------------------|
-| xmin       | int  | minimum x coordinate. |
-| xmax       | int  | maximum x coordinate. |
-| ymin       | int  | minimum y coordinate. |
-| ymax       | int  | maximum y coordinate. |
 - ### CropAndPad:
 - ### CropOrPad:
 - ### Flip:
