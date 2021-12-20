@@ -12,10 +12,10 @@ Therefore, it is the process of increasing the training dataset without collecti
   - [Crop](#Crop)
   - [CropAndPad](#CropAndPad)
   - [CropOrPad](#CropOrPad)
-  - [Dummy Transformation](#DummyTransformation)
   - [Flip](#Flip)
   - [Flip Horizontal](#FlipHorizontal)
   - [FlipVertical](#FLipVertical)
+  - [Identity](#Identity)
   - [Transpose](#Transpose)
   - [RandomCrop](#RandomCrop)
   - [RandomRotation90](#RandomRotation90)
@@ -41,15 +41,32 @@ images=Augmentor.apply(images)
 res=export(images,'./res')
 ```
 ##Transformation List
-- ###CenterCrop:
-- ###Crop:
-- ###CropAndPad:
-- ###CropOrPad:
-- ###Dummy Transformation:
-- ###Flip:
-- ###Flip Horizontal:
-- ###Flip Vertical:
-- ###Transpose:
-- ###RandomCrop:
-- ###RandomRotation90:
+- ### CenterCrop:
+#### Class TunAugmentor.transformations.CenterCrop (height, width)
+Crops the center of the image with a fixed width and height.
+
+| Parameters | Type | Description         |
+|------------|------|---------------------|
+| height     | int  | height of the crop. |
+| width      | int  | width of the crop.  |
+
+- ### Crop:
+#### Class TunAugmentor.transformations.Crop (xmin, xmax, ymin, ymax)
+Crops the area of the image limited by xmin,xmax and ymin,ymax.
+
+| Parameters | Type | Description           |
+|------------|------|-----------------------|
+| xmin       | int  | minimum x coordinate. |
+| xmax       | int  | maximum x coordinate. |
+| ymin       | int  | minimum y coordinate. |
+| ymax       | int  | maximum y coordinate. |
+- ### CropAndPad:
+- ### CropOrPad:
+- ### Flip:
+- ### Flip Horizontal:
+- ### Flip Vertical:
+- ### Identity:
+- ### Transpose:
+- ### RandomCrop:
+- ### RandomRotation90:
 

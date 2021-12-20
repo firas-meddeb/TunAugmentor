@@ -15,7 +15,7 @@ class BasicTransform(ABC):
         pass
 
 
-class DummyTransformation(BasicTransform):
+class Identity(BasicTransform):
     def transform(self, images: List[np.ndarray]):
         self.check_images(images)
         return images
