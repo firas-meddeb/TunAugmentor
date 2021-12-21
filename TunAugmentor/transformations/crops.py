@@ -70,7 +70,8 @@ class CenterCrop(BasicTransform):
 
 class CropAndPad(BasicTransform):
     """
-     Crops and pads the image. Crops the center of the image with a fixed width and height thens adds a padding corresponding to the color value at the sides.
+    Crops and pads the image. Crops the center of the image with a fixed width and height then adds a padding
+    corresponding to the color value at the sides.
 
      Parameters
      ----------
@@ -135,9 +136,9 @@ class RandomCrop(BasicTransform):
 
 class CropOrPad(BasicTransform):
     """
-     Crops or pads the image to a fixed width and height.
-     Crops the image if either the width or height is less then the initial width or height.
-     Pads the images with the corresponding color value if either the width or height is more then the initial width or height.
+    Crops or pads the image to a fixed width and height. Crops the image if either the width or height is less than
+    the initial width or height. Pads the images with the corresponding color value if either the width or height is
+    more than the initial width or height.
 
      Parameters
      ----------
