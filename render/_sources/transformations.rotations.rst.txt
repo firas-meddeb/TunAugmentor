@@ -1,7 +1,0 @@
-transformations.rotations module
-================================
-
-.. automodule:: transformations.rotations
-   :members:
-   :undoc-members:
-   :show-inheritance:
