@@ -1,7 +1,7 @@
 # TunAugmentor
 TunAugmentor is a python library for image data augmentation. Image augmentation is an effective technique widely used for Machine Learning and Computer Vision tasks.
 The aim of image augmentation is to apply different transformations on existing images to create more data for the model hence increasing the performance of the model.
-Therefore, it is the process of increasing the training dataset without collecting new data.
+Therefore, it is the process of increasing the training dataset without collecting new data. You can find the documentation on https://ahmedbelgacem.github.io/TunAugmentor/ .
 ## Table of contents
 - [About TunAugmentor](#About-TunAugmentor)
 - [Authors](#Authors)
