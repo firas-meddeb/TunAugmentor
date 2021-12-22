@@ -2,13 +2,13 @@ from setuptools import find_packages,setup
 
 setup(
     name='TunAugmentor',
-    packages=find_packages(include=['TunAugmentor']),
-    version='0.1.5',
+    packages=find_packages(include=['TunAugmentor','transformations']),
+    version='0.1.7',
     description='Python library for image data augmentation',
     author='Ahmed Belgacem, Firas Meddeb',
     author_email = 'ahmedbelgaacem@gmail.com',
     url="https://github.com/ahmedbelgacem/TunAugmentor",
-    download_url ="https://github.com/ahmedbelgacem/TunAugmentor/archive/refs/tags/0.1.5.tar.gz",
+    download_url ="https://github.com/ahmedbelgacem/TunAugmentor/archive/refs/tags/0.1.6.tar.gz",
     license='MIT',
     install_requires=['numpy','opencv-python'],
     setup_requires=['pytest-runner'],
