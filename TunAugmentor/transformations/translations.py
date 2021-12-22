@@ -9,6 +9,8 @@ class Translation (BasicTransform):
 
      Parameters
      ----------
+     shift_along_x : int
+         Distance of the shift along x-axis.
      shift_along_y : int
          Distance of the shift along y-axis.
      color_value : int
