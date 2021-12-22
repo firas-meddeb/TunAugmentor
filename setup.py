@@ -1,9 +1,9 @@
-from setuptools import find_packages,setup
+from setuptools import setup
 
 setup(
     name='TunAugmentor',
-    packages=find_packages(include=['TunAugmentor','transformations']),
-    version='0.1.7',
+    packages=['TunAugmentor','transformations'],
+    version='0.1.8',
     description='Python library for image data augmentation',
     author='Ahmed Belgacem, Firas Meddeb',
     author_email = 'ahmedbelgaacem@gmail.com',
