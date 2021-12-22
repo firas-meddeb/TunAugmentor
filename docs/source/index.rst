@@ -41,7 +41,6 @@ To use TunAugmentor, first install it using pip:
    ./TunAugmentor.utils.rst
    ./TunAugmentor.pipeline.rst
 
-
 Indices and tables
 ==================
 
