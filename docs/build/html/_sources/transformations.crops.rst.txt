@@ -1,0 +1,7 @@
+transformations.crops module
+============================
+
+.. automodule:: transformations.crops
+   :members:
+   :undoc-members:
+   :show-inheritance:

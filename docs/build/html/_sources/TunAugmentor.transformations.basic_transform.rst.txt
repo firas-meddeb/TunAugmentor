@@ -1,0 +1,7 @@
+TunAugmentor.transformations.basic\_transform module
+====================================================
+
+.. automodule:: TunAugmentor.transformations.basic_transform
+   :members:
+   :undoc-members:
+   :show-inheritance:

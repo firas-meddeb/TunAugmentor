@@ -1,0 +1,7 @@
+transformations.basic\_transform module
+=======================================
+
+.. automodule:: transformations.basic_transform
+   :members:
+   :undoc-members:
+   :show-inheritance:
