@@ -2,6 +2,7 @@ from .basic_transform import BasicTransform
 from typing import List
 import numpy as np
 
+
 class CenterZoom(BasicTransform):
     """
      Zooms in the center of an image.
@@ -14,6 +15,8 @@ class CenterZoom(BasicTransform):
 
     def __init__(self, zoom_factor):
         self.zoom_factor = zoom_factor
+        if not isinstance(zoom_factor, int):
+            raise ValueError("zoom_factor should be int")
 
     def transform(self, images: List[np.ndarray]):
         self.check_images(images)

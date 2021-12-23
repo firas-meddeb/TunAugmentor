@@ -80,6 +80,3 @@ class ColorModification(BasicTransform):
             tmp[:, :, 2] = tmp[:, :, 2] + self.blue_shift
             res.append(tmp)
         return res
-
-
-

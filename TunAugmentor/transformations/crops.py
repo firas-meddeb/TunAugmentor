@@ -3,6 +3,7 @@ from typing import List
 import numpy as np
 import random
 
+
 class Crop(BasicTransform):
     """
      Crops the area of the image limited by xmin,xmax and ymin,ymax.
@@ -18,6 +19,7 @@ class Crop(BasicTransform):
      ymax : int
          maximum y coordinate.
      """
+
     def __init__(self, xmin, xmax, ymin, ymax):
         self.xmin = xmin
         self.xmax = xmax
@@ -50,6 +52,7 @@ class CenterCrop(BasicTransform):
      width : int
          Width of the crop.
      """
+
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -82,6 +85,7 @@ class CropAndPad(BasicTransform):
      color_value : int
          Color of the padding.
      """
+
     def __init__(self, width, height, color_value):
         self.width = width
         self.height = height
@@ -117,6 +121,7 @@ class RandomCrop(BasicTransform):
          Width of the crop.
 
      """
+
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -149,6 +154,7 @@ class CropOrPad(BasicTransform):
      color_value : int
          Color of the padding.
      """
+
     def __init__(self, width, height, color_value):
         self.width = width
         self.height = height
@@ -170,5 +176,3 @@ class CropOrPad(BasicTransform):
                                                                                             y // 2 - y_size:y // 2 + y_size]
             res.append(tmp)
         return res
-
-

@@ -89,11 +89,18 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TunAugmentor.transformations.basic_transform.BasicTransform</span></code></p>
 <p>Translates the image along the y-axis and colors the remaining part of the image with the chosen color.</p>
 <dl class="simple">
+<dt>shift_along_x<span class="classifier">int</span></dt><dd><p>Distance of the shift along x-axis.</p>
+</dd>
 <dt>shift_along_y<span class="classifier">int</span></dt><dd><p>Distance of the shift along y-axis.</p>
 </dd>
 <dt>color_value<span class="classifier">int</span></dt><dd><p>The chosen color for the remaining part of the image.</p>
 </dd>
 </dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="TunAugmentor.transformations.translations.Translation.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">images</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TunAugmentor.transformations.translations.Translation.transform" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="py class">
@@ -110,6 +117,11 @@ corresponding to the color value chosen.</p>
 </dd>
 </dl>
 </div></blockquote>
+<dl class="py method">
+<dt class="sig sig-object py" id="TunAugmentor.transformations.translations.TranslationX.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">images</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TunAugmentor.transformations.translations.TranslationX.transform" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 <dl class="py class">
@@ -123,6 +135,11 @@ corresponding to the color value chosen.</p>
 <dt>color_value<span class="classifier">int</span></dt><dd><p>The chosen color for the remaining part of the image.</p>
 </dd>
 </dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="TunAugmentor.transformations.translations.TranslationY.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">images</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TunAugmentor.transformations.translations.TranslationY.transform" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
 </dd></dl>
 
 </section>
@@ -141,9 +158,7 @@ corresponding to the color value chosen.</p>
     <p>&#169; Copyright 2021, Ahmed Belgacem, Firas Meddeb.</p>
   </div>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
    
 
 </footer>

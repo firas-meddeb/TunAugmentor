@@ -20,4 +20,5 @@ Module contents
 
 .. automodule:: TunAugmentor.transformations
    :members:
+   :undoc-members:
    :show-inheritance:

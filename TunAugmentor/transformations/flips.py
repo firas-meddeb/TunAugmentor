@@ -14,7 +14,7 @@ class Flip(BasicTransform):
      h : bool
          True to flip horizontally, else False. Default False
      """
-    def __init__(self, v=0, h=0):
+    def __init__(self, v=False, h=False):
 
         self.v = -1 if v else 1
         self.h = -1 if h else 1
