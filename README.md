@@ -7,6 +7,7 @@ Therefore, it is the process of increasing the training dataset without collecti
 - [Authors](#Authors)
 - [Installation](#Installation)
 - [Example](Example)
+- [Getting Started](Getting-Started)
 - [Transformation List](#Transformation-List)
 
 ## About TunAugmentor
@@ -30,6 +31,8 @@ images=read_images('./image_folder')
 images=Augmentor.apply(images)
 res=export(images,'./res')
 ```
+## Getting Started
+You can check the [Getting Started with TunAugmentor Notebook](https://github.com/ahmedbelgacem/Getting-Started-TunAugmentor) for a concrete example.
 ## Transformation List
 - [AddGaussianNoise](https://ahmedbelgacem.github.io/TunAugmentor/TunAugmentor.transformations.pixel_transformations.html#TunAugmentor.transformations.pixel_transformations.AddGaussianNoise)
 - [CenterCrop](https://ahmedbelgacem.github.io/TunAugmentor/TunAugmentor.transformations.crops.html#TunAugmentor.transformations.crops.CenterCrop)
