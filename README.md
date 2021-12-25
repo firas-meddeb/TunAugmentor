@@ -6,8 +6,8 @@ Therefore, it is the process of increasing the training dataset without collecti
 - [About TunAugmentor](#About-TunAugmentor)
 - [Authors](#Authors)
 - [Installation](#Installation)
-- [Example](Example)
-- [Getting Started](Getting-Started)
+- [Example](#Example)
+- [Getting Started](#Getting-Started)
 - [Transformation List](#Transformation-List)
 
 ## About TunAugmentor
