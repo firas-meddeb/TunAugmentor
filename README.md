@@ -32,7 +32,7 @@ images=Augmentor.apply(images)
 res=export(images,'./res')
 ```
 ## Getting Started
-You can check the [Getting Started with TunAugmentor Notebook](https://github.com/ahmedbelgacem/Getting-Started-TunAugmentor) for a concrete example.
+You can check the [Getting Started with TunAugmentor Notebook](https://github.com/firas-meddeb/Getting-Started-TunAugmentor) for a concrete example.
 ## Transformation List
 - [AddGaussianNoise](https://ahmedbelgacem.github.io/TunAugmentor/TunAugmentor.transformations.pixel_transformations.html#TunAugmentor.transformations.pixel_transformations.AddGaussianNoise)
 - [CenterCrop](https://ahmedbelgacem.github.io/TunAugmentor/TunAugmentor.transformations.crops.html#TunAugmentor.transformations.crops.CenterCrop)
